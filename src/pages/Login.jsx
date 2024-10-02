@@ -62,7 +62,7 @@ const Login = () => {
       </form>
 
       <p className="signup-prompt">
-        New here? <Link to="/signup" className="signup-link">Sign Up</Link>
+        New here? <Link to="/" className="signup-link">Sign Up</Link>
       </p>
     </div>
   );
