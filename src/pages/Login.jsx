@@ -14,7 +14,7 @@ const Login = () => {
 
   const onSubmit = async (data) => {
     try {
-      const response = await fetch('http://localhost:3000/api/v1/user/login', {
+      const response = await fetch('https://complexity-ai-client-zlvs.vercel.app/api/v1/user/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

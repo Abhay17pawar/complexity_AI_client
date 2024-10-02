@@ -16,7 +16,7 @@ const Signup = () => {
      const token = localStorage.getItem('token'); 
 
     try {
-      const response = await fetch('http://localhost:3000/api/v1/user/signup', {
+      const response = await fetch('https://complexity-ai-client-zlvs.vercel.app/api/v1/user/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -26,7 +26,7 @@ const Home = () => {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:3000/api/generate', { message: input });
+      const response = await axios.post('https://complexity-ai-client-zlvs.vercel.app/api/generate', { message: input });
       const assistantMessage = { 
         role: 'assistant', 
         content: response.data.response 
